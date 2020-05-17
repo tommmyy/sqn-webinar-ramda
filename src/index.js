@@ -1,14 +1,38 @@
-// 1. Importing
-//
-// import * as R from 'ramda';
-import { compose } from 'ramda';
-
+// # Docs
 // https://ramdajs.com/docs/
 // https://ramdajs.com/repl/
+
+// # Importing
+// import * as R from 'ramda';
+
+// import { compose } from 'ramda';
+
+import './R';
+
+// # Basics
+// Termíny
+// - first-class funkce
+// - pure funkce
 //
-// Curry
-// Immutable
-// Compose
-// Data-last
+// 1. Curry
+// require('./curry');
+
+// 2. Immutable
+// require('./immutable');
+
+// 3. Compose
+// require('./compose');
 //
-console.log('Hello');
+// 4. Data-last
+// require('./dataLast');
+
+// map/filter/reduce - array AND objects
+// require('./mapFilterReduce');
+
+// # Examples
+//
+// __, flip, toPairs, mapObjIndexed
+// require('./keyMirror');
+
+// cond
+// require('./classNames');
