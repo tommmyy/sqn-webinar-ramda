@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 
-const a = ['Ramda'];
+const libs = ['Ramda'];
 
-// console.log(a === always(a));
+// console.log(libs === append('Lodash', libs));
 
 const person = { name: 'Darth' };
 

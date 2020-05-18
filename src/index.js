@@ -1,20 +1,18 @@
 // # Docs
-// https://ramdajs.com/docs/
+// https://ramdajs.com/
 // https://ramdajs.com/repl/
 
 // # Importing
 // import * as R from 'ramda';
-
-// import { compose } from 'ramda';
-
-import './R';
+// import { add } from 'ramda';
+// import './R';
 
 // # Basics
 // Termíny
 // - first-class funkce
 // - pure funkce
-//
-// 1. Curry
+
+// 1. [Curry](https://en.wikipedia.org/wiki/Currying)
 // require('./curry');
 
 // 2. Immutable
