@@ -23,4 +23,4 @@ for (let i = 0; i < employees.length; i++) {
 // 2. `prop` salary
 // 3. `add`
 
-console.log(sumSalary);
+log(sumSalary);

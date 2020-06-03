@@ -2,8 +2,10 @@
 
 const libs = ['Ramda'];
 
-console.log(libs === append('Lodash', libs));
+// log(append('Lodash', libs));
+// log(libs === append('Lodash', libs));
 
 const person = { name: 'Darth' };
 
-// console.log(assoc('surname', 'Vader', person) === person);
+// log(assoc('surname', 'Vader', person));
+// log(assoc('surname', 'Vader', person) === person);

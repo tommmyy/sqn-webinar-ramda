@@ -2,7 +2,7 @@ const f = x => x + 3;
 const g = x => x / 2;
 const x = 1;
 
-console.log(
+log(
 	g(f(x)) //
 );
 
@@ -10,6 +10,7 @@ console.log(
 // compose
 // pipe
 
+// Pure?
 // const calculateDiscount = (price, discount) => {
 // 	// helper variable
 // 	let result = price * discount;
@@ -22,4 +23,4 @@ console.log(
 // 	return result;
 // };
 
-// console.log(calculateDiscount(200, 0.8));
+// log(calculateDiscount(200, 0.8));

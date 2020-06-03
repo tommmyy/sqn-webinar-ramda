@@ -1,7 +1,7 @@
 import * as R from 'ramda';
 import * as R_ from 'ramda-extension';
 
-global.log = console.log;
+// global.log = console.log;
 //
 // NOT RECOMMENDED! Using just for webinar
 //
@@ -11,3 +11,5 @@ for (const x in R) {
 for (const x in R_) {
 	global[x] = R_[x];
 }
+
+global.numbers = [1, 2, 3];

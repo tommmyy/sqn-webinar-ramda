@@ -27,7 +27,10 @@
 // map/filter/reduce - array AND objects
 // require('./mapFilterReduce');
 
-// # Examples
+// ====================================
+
+// Part II
+// # Ramda can do anything
 //
 // __, flip, toPairs, mapObjIndexed
 // require('./keyMirror');
