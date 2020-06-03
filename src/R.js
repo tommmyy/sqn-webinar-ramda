@@ -1,6 +1,7 @@
 import * as R from 'ramda';
 import * as R_ from 'ramda-extension';
 
+global.log = console.log;
 //
 // NOT RECOMMENDED! Using just for webinar
 //

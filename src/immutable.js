@@ -2,7 +2,7 @@
 
 const libs = ['Ramda'];
 
-// console.log(libs === append('Lodash', libs));
+console.log(libs === append('Lodash', libs));
 
 const person = { name: 'Darth' };
 
